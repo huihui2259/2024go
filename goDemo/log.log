@@ -1,0 +1,414 @@
+Info: 2023/04/12 16:52:56 logWriter.go:29: [123 34 73 68 34 58 48 44 34 85 115 101 114 73 68 34 58 49 44 34 86 111 117 99 104 101 114 73 68 34 58 50 44 34 80 97 121 84 121 112 101 34 58 48 44 34 83 116 97 116 117 115 34 58 49 44 34 67 114 101 97 116 101 84 105 109 101 34 58 34 50 48 50 51 45 48 52 45 49 50 32 49 54 58 53 50 58 53 54 34 44 34 80 97 121 84 105 109 101 34 58 34 50 48 48 48 45 48 49 45 48 49 32 48 48 58 48 48 58 48 48 34 44 34 85 115 101 84 105 109 101 34 58 34 50 48 48 54 45 48 49 45 48 50 32 49 53 58 48 52 58 48 53 34 44 34 82 101 102 117 110 100 84 105 109 101 34 58 34 50 48 48 54 45 48 49 45 48 50 32 49 53 58 48 52 58 48 53 34 44 34 85 112 100 97 116 101 84 105 109 101 34 58 34 50 48 50 51 45 48 52 45 49 50 32 49 54 58 53 50 58 53 54 34 125]
+Info: 2023/04/12 16:55:36 logWriter.go:30: [123 34 73 68 34 58 48 44 34 85 115 101 114 73 68 34 58 49 44 34 86 111 117 99 104 101 114 73 68 34 58 50 44 34 80 97 121 84 121 112 101 34 58 48 44 34 83 116 97 116 117 115 34 58 49 44 34 67 114 101 97 116 101 84 105 109 101 34 58 34 50 48 50 51 45 48 52 45 49 50 32 49 54 58 53 53 58 51 54 34 44 34 80 97 121 84 105 109 101 34 58 34 50 48 48 48 45 48 49 45 48 49 32 48 48 58 48 48 58 48 48 34 44 34 85 115 101 84 105 109 101 34 58 34 50 48 48 54 45 48 49 45 48 50 32 49 53 58 48 52 58 48 53 34 44 34 82 101 102 117 110 100 84 105 109 101 34 58 34 50 48 48 54 45 48 49 45 48 50 32 49 53 58 48 52 58 48 53 34 44 34 85 112 100 97 116 101 84 105 109 101 34 58 34 50 48 50 51 45 48 52 45 49 50 32 49 54 58 53 53 58 51 54 34 125]
+Info: 2023/04/12 16:57:52 logWriter.go:30: {"ID":0,"UserID":1,"VoucherID":2,"PayType":0,"Status":1,"CreateTime":"2023-04-12 16:57:52","PayTime":"2000-01-01 00:00:00","UseTime":"2006-01-02 15:04:05","RefundTime":"2006-01-02 15:04:05","UpdateTime":"2023-04-12 16:57:52"}
+Info: 2023/04/12 17:01:20 api.go:48: {"ID":0,"UserID":1,"VoucherID":2,"PayType":0,"Status":1,"CreateTime":"2023-04-12 17:01:20","PayTime":"2000-01-01 00:00:00","UseTime":"2006-01-02 15:04:05","RefundTime":"2006-01-02 15:04:05","UpdateTime":"2023-04-12 17:01:20"}
+Info: 2023/04/13 09:48:42 redisLock.go:19: 
+Info: 2023/04/13 09:48:42 redisLock.go:19: 
+Info: 2023/04/13 09:53:28 redisLock.go:19: 
+Info: 2023/04/13 09:53:28 redisLock.go:19: 
+Info: 2023/04/13 09:55:51 redisLock.go:20: 
+Info: 2023/04/13 09:55:51 redisLock.go:20: 
+Info: 2023/04/13 09:57:11 redisLock.go:21: 
+Info: 2023/04/13 09:57:11 redisLock.go:21: 
+Info: 2023/04/13 10:00:34 redisLock.go:21: 
+Info: 2023/04/13 10:00:34 redisLock.go:21: 
+Info: 2023/04/13 10:02:45 redisLock.go:22: 
+Info: 2023/04/13 10:02:45 redisLock.go:23: 
+Info: 2023/04/13 10:02:45 redisLock.go:22: 
+Info: 2023/04/13 10:02:45 redisLock.go:23: 
+Info: 2023/04/13 10:04:32 redisLock.go:22: 
+Info: 2023/04/13 10:04:32 redisLock.go:23: mytest
+oiencoacdaki
+
+Info: 2023/04/13 10:04:32 redisLock.go:22: 
+Info: 2023/04/13 10:04:32 redisLock.go:23: mytest
+oiencoacdaki
+
+Info: 2023/04/13 10:05:14 redisLock.go:22: if redis.call("get", KEYS[1]) == ARGV[1] then
+    return redis.call("del", KEYS[1])
+else
+    return 0
+end
+Info: 2023/04/13 10:05:14 redisLock.go:23: mytest
+oiencoacdaki
+
+Info: 2023/04/13 10:05:14 redisLock.go:22: if redis.call("get", KEYS[1]) == ARGV[1] then
+    return redis.call("del", KEYS[1])
+else
+    return 0
+end
+Info: 2023/04/13 10:05:14 redisLock.go:23: mytest
+oiencoacdaki
+
+Info: 2023/04/13 15:05:23 redisLock.go:26: lua执行结果: %!s(int64=-1)
+Info: 2023/04/13 15:08:06 redisLock.go:26: lua执行结果: -1
+Info: 2023/04/13 17:27:14 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:02 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:28:07 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:34 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/13 17:30:35 api.go:52: {"VoucherID":2,"UserID":1}
+Info: 2023/04/18 16:18:52 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/18 16:29:18 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/18 16:33:25 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/18 16:38:56 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/18 16:40:21 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/18 16:41:17 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/18 16:42:19 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 10:11:48 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 10:14:08 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 11:37:29 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 11:43:45 blogService.go:67: score: 1681875507.000000
+Info: 2023/04/19 16:08:47 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 16:08:47 userService.go:37: &[]
+Info: 2023/04/19 16:09:41 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 16:09:41 userService.go:38: &[]
+Info: 2023/04/19 16:11:29 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 16:11:29 userService.go:38: &[]
+Info: 2023/04/19 16:11:53 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 16:11:53 userService.go:38: &[]
+Info: 2023/04/19 16:12:14 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 16:12:14 userService.go:38: &[]
+Info: 2023/04/19 16:14:12 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 16:14:12 userService.go:38: &[]
+Info: 2023/04/19 16:14:42 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 16:14:42 userService.go:38: &[{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00} {2 13838411438 可可今天不吃肉  /imgs/icons/kkjtbcr.jpg 2021-12-24 15:14:39 2021-12-28 19:58:04} {3 15754506938 PonyMa 123456  2023-03-23 20:13:08 2023-03-23 20:13:08} {4 13456789011 销户   2022-01-07 12:07:53 2023-03-27 19:03:30} {5 13456789001 user_n0bb8mwwg4   2022-01-07 16:11:33 2022-01-07 16:11:33} {6 15754758907 jack 147258  2023-04-04 11:08:00 2023-04-04 11:08:00}]
+Info: 2023/04/19 16:54:42 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 16:57:40 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 16:57:46 userService.go:22: 当前登录的用户 &{4 13456789011 销户   2022-01-07 12:07:53 2023-03-27 19:03:30}
+Info: 2023/04/19 16:57:46 blogService.go:65: 进行点赞
+Info: 2023/04/19 16:58:30 userService.go:22: 当前登录的用户 &{0      }
+Info: 2023/04/19 16:58:30 blogService.go:65: 进行点赞
+Info: 2023/04/19 17:02:37 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 17:09:52 userService.go:38: &[{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00} {2 13838411438 可可今天不吃肉  /imgs/icons/kkjtbcr.jpg 2021-12-24 15:14:39 2021-12-28 19:58:04} {3 15754506938 PonyMa 123456  2023-03-23 20:13:08 2023-03-23 20:13:08} {4 13456789011 销户   2022-01-07 12:07:53 2023-03-27 19:03:30} {5 13456789001 user_n0bb8mwwg4   2022-01-07 16:11:33 2022-01-07 16:11:33} {6 15754758907 jack 147258  2023-04-04 11:08:00 2023-04-04 11:08:00}]
+Info: 2023/04/19 17:12:37 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 17:12:40 blogService.go:81: [4]
+Info: 2023/04/19 17:12:40 blogService.go:83: [4]
+Info: 2023/04/19 17:12:40 userService.go:38: &[{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00} {2 13838411438 可可今天不吃肉  /imgs/icons/kkjtbcr.jpg 2021-12-24 15:14:39 2021-12-28 19:58:04} {3 15754506938 PonyMa 123456  2023-03-23 20:13:08 2023-03-23 20:13:08} {4 13456789011 销户   2022-01-07 12:07:53 2023-03-27 19:03:30} {5 13456789001 user_n0bb8mwwg4   2022-01-07 16:11:33 2022-01-07 16:11:33} {6 15754758907 jack 147258  2023-04-04 11:08:00 2023-04-04 11:08:00}]
+Info: 2023/04/19 17:14:30 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 17:14:36 blogService.go:81: [4]
+Info: 2023/04/19 17:14:36 blogService.go:83: [4]
+Info: 2023/04/19 17:14:36 userService.go:36: select * from tb_user where id in (4) order by field(id,4)
+Info: 2023/04/19 17:14:36 userService.go:38: &[{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00} {2 13838411438 可可今天不吃肉  /imgs/icons/kkjtbcr.jpg 2021-12-24 15:14:39 2021-12-28 19:58:04} {3 15754506938 PonyMa 123456  2023-03-23 20:13:08 2023-03-23 20:13:08} {4 13456789011 销户   2022-01-07 12:07:53 2023-03-27 19:03:30} {5 13456789001 user_n0bb8mwwg4   2022-01-07 16:11:33 2022-01-07 16:11:33} {6 15754758907 jack 147258  2023-04-04 11:08:00 2023-04-04 11:08:00}]
+Info: 2023/04/19 17:20:05 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/19 17:20:11 blogService.go:81: [4]
+Info: 2023/04/19 17:20:11 blogService.go:83: [4]
+Info: 2023/04/19 17:20:11 userService.go:36: select * from tb_user where id in (4) order by field(id,4)
+Info: 2023/04/19 17:20:11 userService.go:38: &[{4 13456789011 销户   2022-01-07 12:07:53 2023-03-27 19:03:30}]
+Info: 2023/04/19 17:24:50 userService.go:22: 当前登录的用户 &{3 15754506938 PonyMa 123456  2023-03-23 20:13:08 2023-03-23 20:13:08}
+Info: 2023/04/19 17:24:50 blogService.go:65: 进行点赞
+Info: 2023/04/19 17:25:01 blogService.go:81: [4 3]
+Info: 2023/04/19 17:25:01 blogService.go:83: [4 3]
+Info: 2023/04/19 17:25:01 userService.go:36: select * from tb_user where id in (4,3) order by field(id,4,3)
+Info: 2023/04/19 17:25:01 userService.go:38: &[{4 13456789011 销户   2022-01-07 12:07:53 2023-03-27 19:03:30} {3 15754506938 PonyMa 123456  2023-03-23 20:13:08 2023-03-23 20:13:08}]
+Info: 2023/04/19 17:25:14 userService.go:22: 当前登录的用户 &{3 15754506938 PonyMa 123456  2023-03-23 20:13:08 2023-03-23 20:13:08}
+Info: 2023/04/19 17:25:14 blogService.go:68: score: 1681896290.000000
+Info: 2023/04/19 17:25:14 blogService.go:71: 取消点赞
+Info: 2023/04/19 17:25:24 userService.go:22: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/19 17:25:24 blogService.go:65: 进行点赞
+Info: 2023/04/19 17:25:31 blogService.go:81: [4 1]
+Info: 2023/04/19 17:25:31 blogService.go:83: [4 1]
+Info: 2023/04/19 17:25:31 userService.go:36: select * from tb_user where id in (4,1) order by field(id,4,1)
+Info: 2023/04/19 17:25:31 userService.go:38: &[{4 13456789011 销户   2022-01-07 12:07:53 2023-03-27 19:03:30} {1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}]
+Info: 2023/04/20 16:07:54 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/20 16:12:40 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:12:40 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:12:40 blogService.go:133: RowsAffected: 1
+Info: 2023/04/20 16:12:48 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:12:48 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:12:49 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:12:49 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:12:49 blogService.go:133: RowsAffected: 1
+Info: 2023/04/20 16:13:37 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:19:09 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/20 16:19:13 blogService.go:182: RowsAffected: 1
+Info: 2023/04/20 16:38:52 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/20 16:38:59 blogService.go:182: RowsAffected: 1
+Info: 2023/04/20 16:39:03 blogService.go:182: RowsAffected: 1
+Info: 2023/04/20 16:39:57 blogService.go:182: RowsAffected: 1
+Info: 2023/04/20 16:40:24 blogService.go:205: []
+Info: 2023/04/20 16:44:39 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/20 16:44:45 blogService.go:209: []
+Info: 2023/04/20 16:45:08 blogService.go:186: RowsAffected: 1
+Info: 2023/04/20 16:45:23 blogService.go:186: RowsAffected: 1
+Info: 2023/04/20 16:45:34 blogService.go:186: RowsAffected: 1
+Info: 2023/04/20 16:47:45 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:47:45 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:47:47 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:47:47 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:47:47 blogService.go:140: RowsAffected: 1
+Info: 2023/04/20 16:48:08 blogService.go:209: [2]
+Info: 2023/04/20 16:52:12 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/04/20 16:52:17 blogService.go:209: [2]
+Info: 2023/04/20 16:52:17 userService.go:44: select * from tb_user where id in (2) order by field(id,2)
+Info: 2023/04/20 16:52:17 userService.go:46: &[{2 13838411438 可可今天不吃肉  /imgs/icons/kkjtbcr.jpg 2021-12-24 15:14:39 2021-12-28 19:58:04}]
+Info: 2023/04/20 16:52:26 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:52:26 userService.go:30: 当前登录的用户 &{1 13686869696 小鱼同学  /imgs/blogs/blog1.jpg 2021-12-24 10:27:19 2022-01-11 16:04:00}
+Info: 2023/04/20 16:52:26 blogService.go:140: RowsAffected: 1
+Info: 2023/04/20 16:52:32 blogService.go:209: [2 3]
+Info: 2023/04/20 16:52:32 userService.go:44: select * from tb_user where id in (2,3) order by field(id,2,3)
+Info: 2023/04/20 16:52:32 userService.go:46: &[{2 13838411438 可可今天不吃肉  /imgs/icons/kkjtbcr.jpg 2021-12-24 15:14:39 2021-12-28 19:58:04} {3 15754506938 PonyMa 123456  2023-03-23 20:13:08 2023-03-23 20:13:08}]
+Info: 2023/05/19 17:40:56 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/05/23 15:53:28 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/05/24 09:48:05 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/05/24 09:55:07 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/05/24 09:55:54 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/05/24 10:00:10 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/05/24 10:00:16 signService.go:35: offset: 22
+Info: 2023/05/24 10:00:16 signService.go:36: key: sign::202305:1
+Info: 2023/05/25 15:45:54 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/05/25 15:46:37 signService.go:60: value:   
+Info: 2023/05/25 17:29:28 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/05/25 17:31:34 signService.go:35: offset: 23
+Info: 2023/05/25 17:31:34 signService.go:36: key: sign::202305:1
+Info: 2023/05/25 17:35:09 signService.go:59: value:   
+Info: 2023/05/25 17:37:15 seckillVoucherService.go:39: 过期时间: 8467200
+Info: 2023/05/25 17:38:01 signService.go:35: offset: 24
+Info: 2023/05/25 17:38:01 signService.go:36: key: sign::202305:1
+Info: 2023/05/25 17:41:13 signService.go:35: offset: 21
+Info: 2023/05/25 17:41:13 signService.go:36: key: sign::202305:1
+Info: 2023/05/25 17:41:21 signService.go:35: offset: 21
+Info: 2023/05/25 17:41:21 signService.go:36: key: sign::202305:1
